@@ -1,0 +1,7 @@
+name = "pendataan-kodim"
+pages_build_output_dir = "./public"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "db-pendataan-kodim"
+database_id = "GANTI_DENGAN_ID_DATABASE_SETELAH_DIBUAT"
