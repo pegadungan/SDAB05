@@ -1,0 +1,16 @@
+{
+  "name": "pendataan-kodim",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler pages dev ./public --local",
+    "deploy": "wrangler pages deploy ./public --project-name=pendataan-kodim",
+    "db:init": "wrangler d1 execute db-pendataan --file=./schema.sql"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
