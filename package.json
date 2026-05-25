@@ -8,7 +8,8 @@
     "db:init": "wrangler d1 execute db-pendataan --file=./schema.sql"
   },
   "dependencies": {
-    "exceljs": "^4.4.0"
+    "exceljs": "^4.4.0",
+    "csv-stringify": "^6.3.0"
   },
   "devDependencies": {
     "wrangler": "^3.0.0"
